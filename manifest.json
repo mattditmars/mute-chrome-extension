@@ -1,16 +1,22 @@
 {
-    "name": "Mute Tab",
-    "version": "1.0",
-    "description": "Mute Your Tabs",
+  "manifest_version": 2,
+  "name": "Mute Tab",
+  "version": "1.0",
+  "description": "Mute Your Tabs",
 
-    "background": {
-        "scripts": ["background.js"],
-        "persistent": false
-      },
-    
-    "browser_action": {
-        "default_title": "Mute tab"
-    },
+  "default_locale": "en",
+  "icons": {
+    "16": "speaker-16.png",
+    "48": "no-audio-48.png",
+    "128": "no-audio-128.png"
+  },
 
-    "manifest_version": 2
+  "browser_action": {
+    "default_title": "Click to mute tabs"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
   }
+}
