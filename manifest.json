@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Tab Muter",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Mute Your Tabs",
 
   "default_locale": "en_US",
