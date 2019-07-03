@@ -1,0 +1,10 @@
+{
+    "appName": {
+      "message": "Tab Muter",
+      "description": "Tab Muter"
+    },
+    "appDesc": {
+      "message": "This app does something awesome.", 
+      "description":"Mute all tabs playing audio in Chrome at the click of a button!"
+    }
+}
